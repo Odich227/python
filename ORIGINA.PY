@@ -55,7 +55,6 @@ class RegistrationApp(QMainWindow):
         
         self.label_password = QLabel("Пароль*:")
         self.edit_password = QLineEdit()
-        self.edit_password.setEchoMode(QLineEdit.EchoMode.Password)
         form_layout.addRow(self.label_password, self.edit_password)
         
         self.label_email = QLabel("Email*:")
